@@ -1,0 +1,43 @@
+/* variable  */
+:root{
+    --White : hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+p {
+    font-size: 15px;
+    color: var(--Light-gray);
+}
+body {
+    background-color: var(--Grayish-blue);
+}
+img{
+    height: 275px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: var(--White);
+    
+}
+.main{
+    background-color: var(--White);
+    padding: 10px 10px 35px 10px;
+    max-width: 275px;
+    
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,20%);
+    border-radius: 15px;
+    
+}
+.main h4{
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: var(--Dark-blue);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    line-height: 20px;
+}
