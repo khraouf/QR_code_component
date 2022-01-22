@@ -7,10 +7,10 @@
 }
 p {
     font-size: 15px;
-    color: var(--Light-gray);
+    color: var(--Grayish-blue);
 }
 body {
-    background-color: var(--Grayish-blue);
+    background-color: var(--Light-gray);
 }
 img{
     height: 275px;
@@ -27,7 +27,7 @@ img{
     position: relative;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,20%);
+    transform: translate(-50%,35%);
     border-radius: 15px;
     
 }
